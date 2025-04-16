@@ -21,18 +21,18 @@ To get started with this project, follow these steps:
 
 ### 1. Clone the Repository
 
-\`\`\`bash
-git clone https://github.com/your-username/talentscout.git
-cd talentscout
-\`\`\`
+```bash
+git clone https://github.com/Ankita780/Personalized-Interview-Questions-Generator.git
+cd Personalized-Interview-Questions-Generator
+```
 
 ### 2. Install Dependencies
 
 Make sure you have Python 3.7+ installed. You can install the required dependencies using \`pip\`:
 
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 You will need to install **Streamlit**, **Hugging Face's Transformers**, and **Torch** for the app to run.
 
@@ -46,9 +46,9 @@ To set up Hugging Face's API token:
 2. Go to your [account settings](https://huggingface.co/settings/tokens) and generate an API token.
 3. Use the following environment variable to set your token:
 
-\`\`\`bash
+```bash
 export HF_AUTH_TOKEN="your-token-here"
-\`\`\`
+```
 
 Alternatively, you can use a **tokenized approach** for secure access.
 
@@ -58,9 +58,9 @@ Alternatively, you can use a **tokenized approach** for secure access.
 
 Once everything is set up, you can run the app with the following command:
 
-\`\`\`bash
+```bash
 streamlit run app.py
-\`\`\`
+```
 
 This will launch the app in your web browser.
 
@@ -82,13 +82,13 @@ This will launch the app in your web browser.
 
 ## Project Structure
 
-\`\`\`
+```
 talentscout/
 │
 ├── app.py               # Main Streamlit app
 ├── requirements.txt     # List of required Python packages
 └── README.md            # Project overview and instructions
-\`\`\`
+```
 
 ---
 
@@ -101,9 +101,9 @@ talentscout/
 
 To install the necessary packages, run:
 
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 ---
 
